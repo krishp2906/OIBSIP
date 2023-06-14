@@ -1,0 +1,140 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+}
+
+header {
+    background-color: #FFA500;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 32px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    animation: neon-glow 1s infinite alternate;
+}
+
+@keyframes neon-glow {
+    from {
+        text-shadow: 0 0 5px #FFA500, 0 0 10px #FFA500, 0 0 20px #FFA500;
+    }
+
+    to {
+        text-shadow: 0 0 10px #FFA500, 0 0 20px #FFA500, 0 0 30px #FFA500;
+    }
+}
+
+p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+#content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #333;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+h2 {
+    margin-top: 20px;
+    position: relative;
+    display: inline-block;
+    animation: slide-in 0.5s ease-in-out;
+}
+
+@keyframes slide-in {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+h2::before {
+    content: "\f138";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    position: absolute;
+    left: -30px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #FFA500;
+    font-size: 24px;
+    transition: transform 0.3s ease-in-out;
+}
+
+h2:hover::before {
+    transform: translateX(-5px);
+}
+
+ul {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+blockquote {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #444;
+    border-left: 5px solid #FFA500;
+    font-style: italic;
+    transition: background-color 0.3s ease-in-out;
+}
+
+blockquote:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #FFA500;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+#content {
+    animation: fade-in 1s ease-in-out;
+}
