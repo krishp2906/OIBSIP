@@ -18,7 +18,8 @@ This calculator project is a simple yet powerful tool developed using HTML, CSS,
 - JavaScript: Implemented the logic and functionality of the calculator.
 
 <img width="1280" alt="calculator" src="https://github.com/krishp2906/OIBSIP/assets/125898556/f24bfa3a-101e-4caa-b018-8dd8569bafe0">
-### link:- [Calculator](https://krishp2906.github.io/OIBSIP/Adavnce-Calculator_Task-1%20(Level-2)/index.html)
+
+### Link:- [Calculator](https://krishp2906.github.io/OIBSIP/Adavnce-Calculator_Task-1%20(Level-2)/index.html)
 
 # [Task-2/Tribute Page](https://krishp2906.github.io/OIBSIP/Tribute-Page_Task-2%20(Level-2)/index.html)
 This tribute page project showcases the life and accomplishments of a notable individual. It is built using HTML and CSS to create an engaging and visually appealing web page. The project aims to educate and inspire visitors by highlighting the significant contributions made by the subject of the tribute.
@@ -34,7 +35,8 @@ This tribute page project showcases the life and accomplishments of a notable in
 - CSS: Styled the page with aesthetic design elements and responsiveness.
 
 <img width="1280" alt="tribute-page" src="https://github.com/krishp2906/OIBSIP/assets/125898556/df6de382-0546-4ece-9f20-c0a756e9344c">
-### link:- [Tribute Page](https://krishp2906.github.io/OIBSIP/Tribute-Page_Task-2%20(Level-2)/index.html)
+
+### Link:- [Tribute Page](https://krishp2906.github.io/OIBSIP/Tribute-Page_Task-2%20(Level-2)/index.html)
 
 # [Task-3/To-Do List Web App](https://krishp2906.github.io/OIBSIP/To-Do-Web-App_Task-3%20(Level-2)/index.html)
 The To-Do List Web App is a powerful tool that helps users stay organized and manage their tasks effectively. Built using HTML, CSS, and JavaScript, this web application provides an intuitive user interface to create and update tasks. The project aims to streamline task management and improve productivity.
@@ -51,4 +53,5 @@ The To-Do List Web App is a powerful tool that helps users stay organized and ma
 - JavaScript: Implemented the logic and functionality of the to-do list.
 
 <img width="1280" alt="to-do-list-web-app" src="https://github.com/krishp2906/OIBSIP/assets/125898556/9f11ade1-abce-4ac9-9872-e1a57b1123f7">
-### link:- [To-Do List Web App](https://krishp2906.github.io/OIBSIP/To-Do-Web-App_Task-3%20(Level-2)/index.html)
+
+### Link:- [To-Do List Web App](https://krishp2906.github.io/OIBSIP/To-Do-Web-App_Task-3%20(Level-2)/index.html)
