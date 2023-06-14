@@ -1,0 +1,56 @@
+  .calculator {
+    max-width: 300px;
+    margin: 0 auto;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border: 3px solid #ff953e;
+    background-color: #525252;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .calculator input[type="text"] {
+    width: 92%;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 18px;
+    border: 3px solid #ff953e;
+    border-radius: 20px;
+    background-color: #000000;
+    color: white;
+  }
+
+  .calculator input[type="button"] {
+    width: 48%;
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    border: solid black 1px;
+    border-radius: 20px;
+    background-color: #ff953e;
+    color: #000000;
+    cursor: pointer;
+  }
+
+  .calculator input[type="button"]:hover {
+    background-color: #e6e6e6;
+  }
+
+  .calculator .row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .magicpattern { 
+      width: 100%;
+      height: 100%;
+      background-size: cover;
+      background-position: center center;
+      background-repeat: repeat;
+      background-image: url("data:image/svg+xml;utf8,%3Csvg width=%222000%22 height=%221400%22 xmlns=%22http:%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath fill=%22%23fff5e5%22 d=%22M0 0h2000v1400H0z%22%2F%3E%3Cpath d=%22M0 155h0c101.923 3.327 203.845 6.653 316 3 112.155-3.653 234.542-14.287 356-13 121.458 1.287 241.987 14.494 351 13 109.013-1.494 206.509-17.69 305-23 98.491-5.31 197.978.262 321 4 123.022 3.738 269.578 5.64 332 8 62.422 2.36 40.711 5.18 59 8%22 fill=%22none%22 stroke=%22%23ffb337%22 stroke-width=%224%22 stroke-linecap=%22round%22%2F%3E%3Cpath d=%22M0 311h0c109.694-2.551 219.389-5.102 335-1 115.611 4.102 237.139 14.857 344 15 106.861.143 199.057-10.326 302-16 102.943-5.674 216.634-6.552 333-6 116.366.552 235.406 2.533 360 3 124.594.467 254.741-.58 310 0 55.259.58 35.63 2.79 56 5%22 fill=%22none%22 stroke=%22%23ffdca2%22 stroke-width=%224%22 stroke-linecap=%22round%22%2F%3E%3Cpath d=%22M0 466h0c104.055 6.864 208.109 13.729 316 5 107.891-8.729 219.618-33.05 333-28 113.382 5.05 228.417 39.472 348 46 119.583 6.528 243.713-14.838 348-25s188.731-9.12 312-11c123.269-1.88 285.363-6.68 349-5 63.637 1.68 28.819 9.84 34 18%22 fill=%22none%22 stroke=%22%23ffdea9%22 stroke-width=%224%22 stroke-linecap=%22round%22%2F%3E%3Cpath d=%22M0 622h0c118.28 5.382 236.561 10.765 343 10 106.439-.765 201.036-7.676 307-12s223.294-6.06 347-3c123.706 3.06 253.787 10.913 360 9 106.213-1.913 188.557-13.592 306-13 117.443.592 269.984 13.455 332 17 62.016 3.545 33.508-2.227 45-8%22 fill=%22none%22 stroke=%22%23ffaf2c%22 stroke-width=%224%22 stroke-linecap=%22round%22%2F%3E%3Cpath d=%22M0 777h0c98-8.542 196-17.084 309-20 113-2.916 241.003-.205 351 0 109.997.205 201.988-2.094 316 8s250.044 32.582 357 34c106.956 1.418 184.834-18.234 312-24 127.166-5.766 303.619 2.352 371 5 67.381 2.648 25.69-.176 24-3%22 fill=%22none%22 stroke=%22%23ffd99c%22 stroke-width=%224%22 stroke-linecap=%22round%22%2F%3E%3Cpath d=%22M0 933h0c106.938 7.66 213.876 15.32 327 10s232.434-23.62 340-24c107.566-.38 203.39 17.158 312 28 108.61 10.842 230.009 14.989 347 6 116.991-8.989 229.574-31.112 359-39 129.426-7.888 275.693-1.54 331 4 55.307 5.54 19.653 10.27 24 15%22 fill=%22none%22 stroke=%22%23ffc463%22 stroke-width=%224%22 stroke-linecap=%22round%22%2F%3E%3Cpath d=%22M0 1088h0c111.2.225 222.4.45 337 4s232.601 10.423 340 13 204.195.86 309 3 217.618 8.14 325 2c107.382-6.14 209.334-24.423 339-31 129.666-6.577 287.048-1.45 350 2s31.476 5.225 40 7%22 fill=%22none%22 stroke=%22%23ffd084%22 stroke-width=%224%22 stroke-linecap=%22round%22%2F%3E%3Cpath d=%22M0 1244h0c123.95-2.946 247.899-5.892 355-3 107.101 2.892 197.354 11.622 304 11 106.646-.622 229.684-10.598 347-16 117.316-5.402 228.91-6.232 328 2s185.678 25.524 311 26c125.322.476 289.378-15.864 355-22 65.622-6.136 32.811-2.068 40 2%22 fill=%22none%22 stroke=%22%23ffdfaa%22 stroke-width=%224%22 stroke-linecap=%22round%22%2F%3E%3C%2Fsvg%3E");
+    }    
