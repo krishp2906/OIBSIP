@@ -17,7 +17,7 @@ This calculator project is a simple yet powerful tool developed using HTML, CSS,
 - CSS: Styled the calculator with modern design principles and responsiveness.
 - JavaScript: Implemented the logic and functionality of the calculator.
 
-# Task-2/Tribute Page
+# [Task-2/Tribute Page](https://krishp2906.github.io/OIBSIP/Tribute-Page_Task-2%20(Level-2)/index.html)
 This tribute page project showcases the life and accomplishments of a notable individual. It is built using HTML and CSS to create an engaging and visually appealing web page. The project aims to educate and inspire visitors by highlighting the significant contributions made by the subject of the tribute.
 
 ### Features
