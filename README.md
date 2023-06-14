@@ -1,5 +1,5 @@
 # OIBSIP
-## Web Developement & Design Internship by [Oasis Infobytes](https://oasisinfobyte.com)
+## Web Developement & Design Internship by [Oasis Infobyte](https://oasisinfobyte.com)
 
 
 # [Task- 1/Calculator](https://krishp2906.github.io/OIBSIP/Adavnce-Calculator_Task-1%20(Level-2)/index.html)
