@@ -2,7 +2,7 @@
 ## Web Developement & Design Internship by [Oasis Infobytes](https://oasisinfobyte.com)
 
 
-# Task- 1/Calculator
+# [Task- 1/Calculator](https://krishp2906.github.io/OIBSIP/Adavnce-Calculator_Task-1%20(Level-2)/index.html)
 This calculator project is a simple yet powerful tool developed using HTML, CSS, and JavaScript. It provides users with a user-friendly interface to perform various mathematical operations efficiently. The project aims to offer a seamless experience with a visually appealing design and robust functionality.
 
 ### Features
